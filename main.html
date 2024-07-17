@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #card{
+            background-color: black;
+            height: 100vh;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        body{
+            margin: 0px;
+        }
+        button{
+            height: 5vh;
+            width: 10vw;
+            color: white;
+            margin-bottom: 20px;
+
+
+        }
+    </style> 
+               
+</head>
+<body>
+   <div id="card"> 
+    <h1 style="color:white;font-size:30px;">Color Fliepper</h1>
+    <button id="red" style="background-color: red;" onClick="clickred()">red</button>
+    <button id="blue" style="background-color: blue;" onClick="clickblue()">blue</button>
+    <button id="orange" style="background-color: orange;" onClick="clickorange()">black</button>
+    <button id="green" style="background-color: green;" onClick="clickgreen()">green</button>
+    <button id="back" style="background-color: rgb(255, 0, 170); width: 20vw;" onClick="clickback()">back</button>
+    
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
